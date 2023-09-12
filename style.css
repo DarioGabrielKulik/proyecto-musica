@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+body{
+    background-color: #bbc6e2;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    border-radius: 2px;
+  
+    margin-top: 50px;
+}
+
+main img {
+    width: 288px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+section {
+    width: 288px;
+    margin: auto;
+    background-color: white;
+}
+
+section h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+section p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    color: #8d8fa4;
+    line-height: 19px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 1.05rem;
+}
+
+.caja {
+    display: flex;
+    justify-content: center;
+}
+
+.caja--section {
+    width: 240px;
+    height: 60px;
+    background-color: hsl(225, 100%, 98%);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.caja--section img {
+    position: relative;
+    width: 35px;
+    margin-right: 10px;
+    top: 14px;
+    left: 15px;
+}
+
+.caja--section h2 {
+    position: relative;
+    text-align: center;
+    bottom: 20px;
+    right: 30px;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+.caja--section p {
+    position: relative;
+    text-align: center;
+    bottom: 40px;
+    right: 30px;
+}
+
+.caja--section a {
+    position: relative;
+    display: block;
+    text-align: right;
+    bottom: 65px;
+    right: 18px;
+    font-weight: 900;
+}
+
+.caja--boton{
+    width: 288px;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.caja--boton2{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;  
+    margin-bottom: 20px; 
+}
+
+.caja--boton2 .boton1{
+    width: 240px;
+    height: 30px;
+    background-color: hsl(245, 75%, 52%);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color:  whitesmoke;
+    border: none;
+}
+
+.caja--boton2 .boton2{
+    width: 240px;
+    height: 30px;    
+    margin-bottom: 5px;
+    border-radius: 15px;
+    color:  black;   
+    border: 0;
+    font-weight: 400;
+}
